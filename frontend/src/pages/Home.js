@@ -1,5 +1,5 @@
 import data from '../data.js';
-class HomePage {
+const HomePage = {
     render() {
         const { products } = data;
         return `<ul>
